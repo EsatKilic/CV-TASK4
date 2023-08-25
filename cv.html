@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Hazırlama Aracı</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cv-container">
+    <div class="content-column">
+      <h2>Metin İçerikleri</h2>
+      <b>İsim Kutusu</b> <br>
+      <form action="">
+      <label for="adSoyad">Ad Soyad:</label>
+      <input type="text" id="adSoyad"> <br>
+      <label for="unvan">Ünvan:</label>
+      <input type="text" id="unvan">
+    </form> <br>
+    <b>İletişim Bilgileri</b> <br>
+    <label for="tel">Telefon:</label>
+      <input type="tel" id="tel"> <br> <br>
+      <label for="mail">Mail:</label>
+      <input type="email" id="mail"> <br> <br>
+      <label for="web">Web:</label>
+      <input type="text" id="web"><br> <br>
+      <label for="adres">Adres:</label>
+      <textarea id="adres"></textarea> <br> <br>
+      <b>Eğitim Bilgileri</b> <br>
+      <label for="aciklama1">Açıklama:</label>
+      <textarea id="aciklama1"></textarea>
+      <label for="okul">Okul Sayısı:</label>
+      <input type="number" id="okul" value="Seçiniz"> <br><br>
+      <b>Yetenekler</b> <br>
+      <label for="aciklama2">Açıklama:</label>
+      <textarea id="aciklama2"></textarea>
+      <label for="yetenek">Yetenek Sayısı:</label>
+      <input type="number" id="yetenek" value="Seçiniz"> <br> <br>
+     
+      <b>Hakkımda</b> <br>
+      <label for="hakkimda">Hakkımda:</label>
+      <textarea id="hakkimda"></textarea> <br><br>
+      <b>İş Deneyimi</b> <br>
+      <label for="deneyim">Açıklama:</label>
+      <textarea id="deneyim"></textarea>
+    </div>
+    <div class="appearance-column">
+      <h2>Görünüş</h2>
+      <b>Renkler</b> <br>
+      <label for="arkaPlanRenk">Arka Plan Rengi:</label>
+      <input type="color" id="arkaPlanRenk">
+      <label for="solKolon">Sol Kolon Rengi:</label>
+      <input type="color" id="solKolon">
+      <label for="isimKutusu">İsim Kutusu Rengi:</label>
+      <input type="color" id="isimKutusu"> <br>
+      <label for="isimKutusuYazi">İsim Kutusu Yazım Rengi:</label>
+      <input type="color" id="isimKutusuYazi"> <br> <br>
+      <b>Yazı Tipi</b> <br>
+      <label for="yaziTipi">Yazı Tipi:</label>
+  <select id="yaziTipi">
+    <option value="Arial">Arial</option>
+    <option value="Verdana">Verdana</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <!-- Diğer yazı tipleri burada olacak -->
+  </select> <br> <br>
+      <b>Fotoğraf</b> <br>
+      <label for="fotoCerceve">Çerçeve Şekli:</label>
+  <select id="fotoCerceve">
+    <option value="Yuvarlak">Yuvarlak</option>
+    <option value="Kare">Kare</option>
+</select> <br> <br>
+<b>Başlık Altı Çizgileri</b> <br>
+<label for="cizgiRengi">Çizgi Rengi:</label>
+<input type="color" id="cizgiRengi">
+    </div>
+    <div class="cv-column">
+      
+        <div class="solKolon">   
+            <div class="foto"> <img src="esat.jpg" width="280px" /></div>
+            <div class="kutu">
+                <div class="iletisim"><b>İLETİŞİM</b></div>
+               
+            </div>
+            <div class="kutu">
+                <div class="egitim"> <b>EĞİTİM</b> </div>
+                
+            </div>
+            <div class="kutu">
+                <div class="yetenekdiv"><b>YETENEKLER</b></div>
+                          
+
+            </div>
+        </div>
+        <div class="sagKolon">
+            <div class="isimKutusu">
+                <b>AD SOYAD</b> <br>
+                <b>ÜNVAN</b>
+            </div>
+            
+
+            <div class="kutu">
+                <div class="hakkimdadiv">HAKKIMDA</div>
+                <div class="icerik"></div>
+            </div>
+            <div class="kutu">
+                <div class="deneyimdiv">İŞ DENEYİMİ</div>
+                <div class="icerik">
+                    
+                </div>
+                <div class="icerik">
+                   
+                </div>
+            </div>
+        </div>
+      <div class="cv-content">
+        <!-- CV içeriği burada görüntülenecek -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js">
+
+     
+
+    
+  </script>
+</body>
+</html>
